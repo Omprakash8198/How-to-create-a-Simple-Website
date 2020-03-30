@@ -1,0 +1,235 @@
+*{
+	margin:0px;
+	padding: 0px;
+	max-width: 100%;
+	overflow-x: hidden;
+	color:rgb(207,19,107);
+	scroll-behavior: smooth;
+
+}
+body{
+		font-family: 'Vesper Libre', serif;
+		
+
+}
+header{
+	width: 100vw;
+	height: 100vh;
+}
+
+
+nav{
+	/*border:2px solid blue;*/
+	width: 90%;
+	margin:10px auto;
+	text-align:right;
+}
+
+
+nav ul li {
+	display:inline-block;
+	
+
+}
+
+nav ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	margin:0px 10px;
+	letter-spacing: 1px;
+
+}
+
+
+nav ul li a:hover{
+	text-decoration: underline;
+	color:pink;
+}
+
+.strapline-container{
+	width:90%;
+	border:2px solid blue;
+	height: 85%;
+	margin:auto auto;
+	text-align: center;
+	background-image: url("conecover.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-strapline{
+	font-size: 100px;
+	text-transform: uppercase;
+	margin:50px 0px;
+	font-family: 'Poppins', sans-serif;
+	color: yellow;
+
+
+
+}
+.second-strapline{
+	color: #ffffdd;
+	font-size: 35px;
+	font-style: italic;
+}
+
+.section-title{
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	font-size: 240%;
+	margin-bottom: 25px;
+
+}
+
+.about-section{
+	width: 100vw;
+	height: 90vh;
+}
+
+.about-container{
+	
+	width: 85%;
+	margin:0px auto;
+	display: flex;
+	flex-direction: row;
+}
+
+.left-box{
+
+	width: 45%;
+	text-align: justify;
+	line-height: 220%;
+	font-weight: bold;
+	letter-spacing: 0.8px;
+
+	
+}
+.right-box{
+	
+	width: 40%;
+	margin-left:6%;
+	}
+
+	.top-row,.bottom-row{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.grid-image1{
+		width: 50%;
+		height: 170px;
+		border: 2px solid blue;
+		background-image: url("cone1.jpeg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.grid-image1:hover{
+		capacity:0.7;
+	}
+
+	.cone-section{
+		width: 100vw;
+	}
+
+	.image-container{
+		width: 100%;
+	}
+
+	.row-one{
+		width: 90%;
+		margin:10px auto;
+		text-align:center;
+		display: flex;
+		flex-direction: row;
+
+	}
+
+	.grid-item{
+		border:2px solid purple;
+		width: 30%;
+		height: 310px;
+		
+		margin:15px;
+		background-image: url("cone2.jpeg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+
+
+	}
+
+	.store-section{
+		width: 100vw;
+	}
+
+	.stores-container{
+		/*border:2px solid blue;*/
+		width: 90%;
+		margin:0 auto;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.store-div{
+		/*border: 2px solid green;*/
+		width: 30%;
+		height: 240px;
+		margin:20px;
+		text-align:center;
+
+	}
+
+	h4{
+		font-size: 150%;
+
+	}
+
+	.contact-section{
+		
+		width: 100vw;
+		height: 50vh;
+		background-color: rgb(207,19,107);
+		text-align: center;
+		
+
+	}
+
+	.contact-title{
+		color: #ffffdd;
+		margin:25px 0;
+		font-family: 'Poppins', sans-serif;	
+		text-transform: uppercase;
+		font-size: 250%;
+	}
+
+
+	.email{
+		color: #ffffdd;
+		font-size: 130%;
+
+
+
+	}
+
+	.social-media-div{
+		display: flex;
+		flex-direction: row;
+		background-color: pink;
+		justify-content: center;
+		width: 20vw;
+		margin:0 auto;
+
+
+	}
+
+	.social-media-icon{
+		margin:0 7.5px;
+	}
+
+	footer p{
+		color: #ffffdd;
+	}
